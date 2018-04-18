@@ -1,7 +1,7 @@
 # コンピューターゼミ2018(第3回 Tex)
 
 ## 宿題
-このリポジトリに入っているhomework.pdfと同じレイアウトのものをhomework_name.tex上（nameの部分は自分の名前に書き換える)に作成しgithub上でpull requestを送ることで提出．
+このリポジトリに入っているhomework_example.pdfと同じレイアウトのものをhomework.texに作成しgithub上でpushすることで提出．
 
 ## 提出方法
 1.自分のリポジトリへリモートリポジトリ（森原のリポジトリ)からfork
@@ -14,7 +14,7 @@
 4.編集した結果を自分のリポジトリへcommitしpush.**（pdfファイルとtexファイルのみ.**
 中間ファイルであるdviファイルなどは削除した状態で）
 
-5.自分のリポジトリからfork元のリポジトリへpull request
+5.確認してもらう
 
 ## 参考資料
 ・資料[システム工学実験2015年度　Tex演習](http://www.robotics.hiroshima-u.ac.jp/exp/tex/index.html)
@@ -28,11 +28,11 @@
 ## コンパイル方法
 cloud9上では
 
-    platex homework_name.tex
+    platex homework.tex
 
 を実行するとdviファイルなどができるのでその後
 
-    dvipdf homework_name.dvipdf
+    dvipdf homework.dvi
 
 とすることでpdfを出力可能．
 
