@@ -4,6 +4,14 @@
 このリポジトリに入っているhomework_example.pdfと同じレイアウトのものをhomework.texに作成しgithub上でpushすることで提出．
 
 ## 提出方法
+0.初回のみ
+
+    git config --global user.name "name"
+    git config --global user.email "example@hiroshima-u.ac.jp"
+
+として個人の識別情報を入力
+
+
 1.自分のリポジトリへリモートリポジトリ（森原のリポジトリ)からfork
 
 2.自分のリポジトリからファイルをclone
